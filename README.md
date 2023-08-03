@@ -1,4 +1,4 @@
-*Comandos Básicos*
+**Comandos Básicos**
 
 git init: Inicia um novo repositório Git em um diretório existente.     
 git clone <URL>: Clona um repositório Git existente para o seu computador.   
@@ -10,19 +10,19 @@ git log: Exibe o histórico de commits do repositório.
 git pull: Puxa as alterações do repositório remoto para o branch atual.  
 git push: Envia os commits locais para o repositório remoto.   
 
-*Comandos de Branching*
+**Comandos de Branching**
 
 git branch: Lista todos os branches no repositório e destaca o branch atual.   
 git branch <nome_do_branch>: Cria um novo branch com o nome especificado.  
 git checkout <nome_do_branch>: Muda para o branch especificado.  
 git merge <nome_do_branch>: Combina o branch atual com o branch especificado.  
 
-*Comandos de Remoção e Renomeação* 
+**Comandos de Remoção e Renomeação**
 
 git rm <arquivo>: Remove um arquivo do repositório e prepara a remoção para o próximo commit. 
 git mv <antigo_nome> <novo_nome>: Renomeia um arquivo no repositório e prepara a mudança para o próximo commit. 
 
-*Comandos para Trabalhar com o Repositório Remoto* 
+**Comandos para Trabalhar com o Repositório Remoto** 
 
 git remote -v: Exibe os repositórios remotos configurados e suas URLs. 
 git remote add <nome> <URL>: Adiciona um repositório remoto com o nome especificado e a URL fornecida. 
@@ -31,7 +31,7 @@ git fetch: Obtém as alterações do repositório remoto, mas não as mescla com
 git branch -r: Lista os branches remotos. 
 git push <nome_do_remote> <nome_do_branch>: Envia o branch local especificado para o repositório remoto especificado. 
 
-Links para Estudo
+**Links para Estudo**
 
 Documentação oficial do Git: https://git-scm.com/doc  
 Livro Pro Git (gratuito e disponível em vários idiomas): https://git-scm.com/book   
